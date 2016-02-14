@@ -10,6 +10,8 @@
 		6A56B7F41C70DEF6006C3C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56B7F31C70DEF6006C3C13 /* AppDelegate.swift */; };
 		6A56B7F61C70DEF6006C3C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A56B7F51C70DEF6006C3C13 /* Assets.xcassets */; };
 		6A56B7F91C70DEF6006C3C13 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A56B7F71C70DEF6006C3C13 /* MainMenu.xib */; };
+		6A56B8021C70E342006C3C13 /* DeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56B8001C70E342006C3C13 /* DeviceTableViewController.swift */; };
+		6A56B8031C70E342006C3C13 /* DeviceTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A56B8011C70E342006C3C13 /* DeviceTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		6A56B7F51C70DEF6006C3C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A56B7F81C70DEF6006C3C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6A56B7FA1C70DEF6006C3C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A56B8001C70E342006C3C13 /* DeviceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewController.swift; sourceTree = "<group>"; };
+		6A56B8011C70E342006C3C13 /* DeviceTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				6A56B7F51C70DEF6006C3C13 /* Assets.xcassets */,
 				6A56B7F71C70DEF6006C3C13 /* MainMenu.xib */,
 				6A56B7FA1C70DEF6006C3C13 /* Info.plist */,
+				6A56B8001C70E342006C3C13 /* DeviceTableViewController.swift */,
+				6A56B8011C70E342006C3C13 /* DeviceTableViewController.xib */,
 			);
 			path = "Bluetooth Battery Tracker";
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A56B7F61C70DEF6006C3C13 /* Assets.xcassets in Resources */,
+				6A56B8031C70E342006C3C13 /* DeviceTableViewController.xib in Resources */,
 				6A56B7F91C70DEF6006C3C13 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A56B7F41C70DEF6006C3C13 /* AppDelegate.swift in Sources */,
+				6A56B8021C70E342006C3C13 /* DeviceTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
