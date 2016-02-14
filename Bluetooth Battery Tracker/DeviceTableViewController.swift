@@ -12,7 +12,8 @@ class DeviceTableViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
+    
+        self.view.setFrameSize(NSSize.init(width: 200, height: 100))
     }
     
 }
